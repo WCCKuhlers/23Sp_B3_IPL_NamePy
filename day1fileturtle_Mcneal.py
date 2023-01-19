@@ -1,0 +1,12 @@
+from turtle import *
+canvas = Screen()
+canvas.setup(600,400)
+logan = Turtle()
+logan.shape("turtle")
+logan.color("red")
+logan.forward(69)
+logan.left(90)
+logan.forward(45)
+logan.left(45)
+logan.forward(15)
+if logan.forward()is(90)
