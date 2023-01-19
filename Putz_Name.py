@@ -1,0 +1,10 @@
+from turtle import *;
+import time;
+canvas = Screen();
+canvas.setup(1920,1080);
+canvas.bgcolor("#240012");
+evie = Turtle();
+evie.shape("turtle");
+evie.color("#FFDDDD");
+time.sleep(1);
+canvas.onclick(evie.goto);
